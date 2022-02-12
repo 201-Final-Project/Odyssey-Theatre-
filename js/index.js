@@ -1,3 +1,7 @@
+
+// Source code for slide show
+// https://codepen.io/danielguillan/pen/kNjzLM
+
 var current = 0,
     slides = document.getElementsByTagName("img");
 
