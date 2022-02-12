@@ -1,0 +1,14 @@
+
+  /* body {
+    background-color: darkslategrey;
+    margin: 0 auto;
+    width: 100%
+  } */
+
+  img {
+    position: absolute;
+    transition: opacity 1s ease-in;
+  }
+  
+  img + img { opacity: 0; }
+  
