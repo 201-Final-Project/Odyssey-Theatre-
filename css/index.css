@@ -10,5 +10,9 @@
     transition: opacity 1s ease-in;
   }
   
-  img + img { opacity: 0; }
+  img + img { 
+    opacity: 0; 
+  }
+
+ 
   
