@@ -1,3 +1,4 @@
+'use strict';
 
 // Source code for slide show
 // https://codepen.io/danielguillan/pen/kNjzLM
