@@ -6,7 +6,7 @@ Odyssey Theater Website
 
 about site
 
-### Authors: Mike Pace, Susan Hargus, Tyler Walker
+### Authors: Mike Pace, Susan Hargus, Tyler Walker, Lilly McBride
 
 ### Links and Resources
 
