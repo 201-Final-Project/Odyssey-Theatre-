@@ -1,0 +1,6 @@
+.grid {
+  display: grid;
+  grid-template-columns: 65fr 35fr;
+  grid-auto-rows: 100px;
+
+}
