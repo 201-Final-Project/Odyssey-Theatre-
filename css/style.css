@@ -1,0 +1,26 @@
+/* * {
+  box-sizing: border-box;
+} */
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(115, 72, 131, 20%);
+  background-color: black;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(115, 72, 131);
+  font-size: 100px;
+  align-content: center;
+}
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: aquamarine;
+  font-size: 30px;
+  
+}
+ 
