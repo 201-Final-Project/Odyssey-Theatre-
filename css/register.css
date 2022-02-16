@@ -6,19 +6,16 @@
   font-family: 'Montserrat', sans-serif;
   color: rgb(115, 72, 131);
 }
-
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: rgb(115, 72, 131);
   font-size: 60px;
   /* align-content: center; */
-  
 }
 h4 {
   font-family: 'Montserrat', sans-serif;
   color: aquamarine;
   font-size: 30px;
-  
 }
 h5 {
   font-family: 'Montserrat', sans-serif;
@@ -29,4 +26,23 @@ p {
   /* font-family: 'Montserrat', sans-serif; */
   color: rgb(115, 72, 131);
   font-size: 12px; 
+}
+div, form{
+  text-align: center;
+}
+section{
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}
+b{
+  font-weight: 900;
+  font-size: larger;
+}
+#middleText, #topTitle{
+  font-size: xx-large;
+  font-weight: 1000px;
+}
+#numEmail{
+font-size: medium;
 }
