@@ -1,19 +1,16 @@
-
-  /* body {
-    background-color: darkslategrey;
-    margin: 0 auto;
-    width: 100%
-  } */
-
-  img {
+img {
     position: absolute;
-    transition: opacity 1s ease-in;
+    transition: opacity 2s ease-in;
     width: 1700px;
   }
   
   img + img { 
     opacity: 0; 
   }
+
+body {
+  background-color: black;
+}
 
   h1 {
     font-family: 'Montserrat', sans-serif;
