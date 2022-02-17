@@ -39,3 +39,19 @@ p {
   color: rgb(115, 72, 131);
   font-size: 16px; 
 }
+
+#susanimg {
+  float: left;
+}
+
+#mikeimg {
+  float: right;
+}
+
+#lillyimg {
+  float: left;
+}
+
+#tylerimg {
+  float: right;
+}
