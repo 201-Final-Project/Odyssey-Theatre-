@@ -24,7 +24,7 @@
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: rgb(115, 72, 131);
-  font-size: 40px;
+  font-size: 70px;
   /* display: flex;
   justify-content: center; */
 }
@@ -37,7 +37,7 @@ h4 {
 h5 {
   font-family: 'Montserrat', sans-serif;
   color: rgb(115, 72, 131);
-  font-size: 20px;
+  font-size: 30px;
 }
 p {
   /* font-family: 'Montserrat', sans-serif; */
@@ -48,7 +48,7 @@ img {
   /* display: flex;
   flex-direction: column;
   justify-content: start; */
-  display: grid;
+  /* display: grid; */
   width: 400px;
   height: 400px;
 }
