@@ -31,15 +31,13 @@ p {
     }
 
   .div1c {
-    grid-area: 2 / 1 / 15 / 3;
+    grid-area: 2 / 1 / 15 / 2;
   }
 
   .div2c { 
     /* grid-area: 2 / 1 / 3 / 3;  */
-    grid-area: 2 / 3 / 11 / 4;
-    background-color: black;
-    
-  
+    grid-area: 2 / 2 / 11 / 3;
+    background-color: ;
   }
   /* .div2 p {font-size: 30px;} */
 
@@ -50,7 +48,19 @@ p {
 
   /* .div1c { grid-area: 1 / auto / 1 / 2; }
   .div2c { grid-area: 3 / auto / 3 / 3; } */
-  .div2i { grid-area: 2 / 3 / 4 / 4; }
-  .div1i { grid-area: 4 / 3 / 6 / 4; }
-  .div4i { grid-area: 6 / 3 / 8 / 4; }
-  .div5i { grid-area: 8 / 3 / 10 / 4; }
+  .div2i { 
+    grid-area: 2 / 2 / 4 / 3;
+    margin-top: 20px;
+   }
+  .div1i { 
+    grid-area: 4 / 2 / 6 / 3;
+    margin-top: 20px;
+   }
+  .div4i { 
+    grid-area: 6 / 2 / 8 / 3;
+    margin-top: 20px;
+   }
+  .div5i { 
+    grid-area: 8 / 2 / 10 / 3;
+    margin-top: 20px;
+   }
