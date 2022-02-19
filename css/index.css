@@ -4,61 +4,62 @@ html, body {
   overflow: hidden;
   text-align: center;
 }
-
 #stage {
-width: 100%;
-margin: 0 auto;
-overflow: hidden;
-position: relative;
-text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
 }
-
 body {
   background-color: black;
 }
-
 img {
-    margin: 0 auto;
-    text-align: center;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: vw;
-    transition: opacity 2s ease-in;
-    width: 1700px;
-    height: 100vh;
-    display: block;
-    width: auto;
-    height: auto;
-    max-width: 100%;
-
-  }
-  
-  img + img { 
-    opacity: 0; 
-  }
-
-  h1 {
-    font-family: 'Montserrat', sans-serif;
-    color: antiquewhite;
-    font-size: 270px;
-    opacity: 60%;
-  }
-  h2 {
-    font-family: 'Montserrat', sans-serif;
-    color: aquamarine;
-    font-size: 70px;
-    opacity: 80%;
-  }
-   
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: vw;
+  transition: opacity 2s ease-in;
+  width: 1700px;
+  height: 100vh;
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+img + img { 
+  opacity: 0; 
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: antiquewhite;
+  font-size: 270px;
+  opacity: 60%;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: aquamarine;
+  font-size: 70px;
+  opacity: 80%;
+}
 #Title {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  } 
-  
-
- 
-  
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+}
