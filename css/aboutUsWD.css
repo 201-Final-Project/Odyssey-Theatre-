@@ -62,19 +62,16 @@ overflow: hidden;
 position: relative;
 text-align: center;
 }
-  img { 
-    opacity: 0; 
-  }
-  h1 {
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(115, 72, 131);
-    font-size: 300px;
-    opacity: 80%;
-  }
-  h2 {
-    font-family: 'Montserrat', sans-serif;
-    color: aquamarine;
-    font-size: 70px;
-    opacity: 80%;
-  }
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(115, 72, 131);
+  font-size: 300px;
+  opacity: 80%;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: aquamarine;
+  font-size: 70px;
+  opacity: 80%;
+}
   
