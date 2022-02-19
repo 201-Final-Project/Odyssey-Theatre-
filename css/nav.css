@@ -11,16 +11,15 @@ a {
 /* Hamburger */
 .hamburger1 {
   height: 45px;
-  margin: 10px;
-  display: -ms-grid;
+  margin: 30px;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
-  justify-items: center;
+  justify-items: right;
   z-index: 120;
 }
 
 .hamburger1 div {
-  background-color: rgb(115, 72, 131);
+  background-color: #fff;
   position: relative;
   width: 40px;
   height: 5px;
@@ -51,16 +50,14 @@ a {
 }
 
 #toggle1:checked ~ .menu1 {
-  height: 340px;
+  height: 480px;
 }
-
 
 /* Menu */
 .menu1 {
   width: 100%;
-  background-color: rgb(115, 72, 131);
+  background-color: #000;
   margin: 0;
-  display: -ms-grid;
   display: grid;
   grid-template-rows: 1fr repeat(4, 0.5fr);
   grid-template-columns: 1fr 1fr;
@@ -68,29 +65,30 @@ a {
   padding: 0;
   list-style: none;
   clear: both;
-  width: auto;
+  width: 100%;
   text-align: center;
   height: 0px;
   overflow: hidden;
   transition: height .4s ease;
-  z-index: 120;
+  z-index: 500;
+  position: absolute;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
-.menu1 a:first-child {
-  margin-top: 40px;
+.menu1 a:nth-child(7) {
+  margin-bottom: 100px;
 }
 
 .menu1 a:last-child {
-  margin-bottom: 40px;
+  margin-bottom: 100px;
 }
 
 .link1 {
   width: 100%;
   margin: 0;
   padding: 10px 0;
-  font: 700 20px 'Oswald', sans-serif;
+  font: 700 30px 'Oswald', sans-serif;
 }
 
 .link1:hover {
