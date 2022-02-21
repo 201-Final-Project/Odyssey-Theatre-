@@ -2,26 +2,40 @@ div{
   text-align: center;
 }
 body{
-  width: 1200px;
+  /* width: 1200px; */
   margin: 0 auto;
 }
 main{
   margin: auto;
   text-align: center;
-  width: 800px;
+  /* width: 800px; */
   padding-top: 49px;
   font-size: larger;
 }
-section{
+#donate {
+  align-items: center;
+ }
+
+ #whyDonate {
+   margin-left: 250px;
+   margin-right: 250px;
+   margin-bottom: 50px;
+   font-size: px;
+ }
+ 
+ 
+/* section{
   padding-top: 40px;
   padding-left: 400px;
-}
+} */
 button{
   width: 145px;
   height: 50px;
   margin-bottom: 40px;
   font-size: larger;
   font-weight: 900;
+  margin-left: 400px;
+  
 }
 #payp{
   font-size: larger;
@@ -32,6 +46,7 @@ button{
 #ven{
   color: rgb(0, 102, 255);
   background-color: darkgreen;
+  align-items: center;
 }
 footer{
   position: fixed;
