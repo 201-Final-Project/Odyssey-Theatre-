@@ -18,8 +18,11 @@
   font-family: 'Montserrat', sans-serif;
   color: rgb(115, 72, 131, 80%);
   /* background-color: black; */
- 
-}
+ }
+ .div1c {
+   margin-left: 30px;
+   margin-right: 80px;
+ }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
