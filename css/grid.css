@@ -41,3 +41,17 @@
     grid-area: 8 / 2 / 10 / 3;
     margin-top: 20px;
    }
+
+/* .gridAreaRegister{
+  display: grid;
+  grid-template-columns: 1fr, 2fr, 1fr;
+  /* grid-template-columns: repeat(2, 1fr, 50%); */
+  /* grid-template-rows: repeat(5, 1fr); */
+  /* grid-template-rows: 80px;
+  grid-auto-rows: 200px;
+  grid-gap: 1em;
+} */
+
+/* .gridForm{ */
+
+/* }  */
