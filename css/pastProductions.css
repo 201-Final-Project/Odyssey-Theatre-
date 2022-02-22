@@ -1,0 +1,20 @@
+h4{
+  font-size: 70px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+body{
+  background-color: black;
+}
+.flexPast{
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  /* align-content: flex-stretch; */
+  width: 450px;
+}
+
+img{
+  width: 450px;
+  margin-right: 30px;
+}
