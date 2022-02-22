@@ -8,10 +8,42 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="/css/reset.css">
       <link rel="stylesheet" href="/css/register.css">
-      <!-- <link rel="stylesheet" href="css/grid.css"> -->
-      <!-- <link rel="stylesheet" href="/css/style.css"> -->
-   </head>
-   <header>
+      <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+      <script>
+         function initPayPalButton() {
+         paypal.Buttons({
+            style: {
+               shape: 'rect',
+               color: 'gold',
+               layout: 'vertical',
+               label: 'paypal',
+            },
+            createOrder: function(data, actions) {
+               return actions.order.create({
+               purchase_units: [{"description":"Tuition","amount":{"currency_code":"USD","value":1}}]
+               });
+            },
+            onApprove: function(data, actions) {
+               return actions.order.capture().then(function(orderData) {
+               // Full available details
+               console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+               // Show a success message within this page, e.g.
+               const element = document.getElementById('paypal-button-container');
+               element.innerHTML = '';
+               element.innerHTML = '<h3>Thank you for your payment!</h3>';
+               // Or go to another URL:  actions.redirect('thank_you.html');
+               });
+            },
+            onError: function(err) {
+               console.log(err);
+            }
+         }).render('#paypal-button-container');
+         }
+         initPayPalButton();
+      </script>
+    </head>
+   <body>
+         <header>
       <nav>
          <ul id="navbar">
             <li><a href="index.html">Home</a></li>
@@ -25,7 +57,6 @@
          </ul>
       </nav>
    </header>
-   <body>
       <main>
          <section class="imagesLeft">
             <img src="Images/register4.jpg" alt="">
@@ -35,7 +66,6 @@
             <img src="Images/register9.jpg" alt="">
          </section>
          <section class="imagesRight">
-            <img src="Images/register.jpg" alt="">
             <img src="Images/register7.jpg" alt="">
             <img src="Images/register1.jpg" alt="">
             <img src="Images/register13.jpg" alt="">
@@ -59,7 +89,6 @@
             <b>&emsp;&emsp;WHERE?</b> Workshop will be held at the MV District Auditorium. <br>
             <b>&emsp;&emsp;HOW?</b> Mail in registration with your deposit of $100 to hold a spot.  Tuition for the intensive workshop is $225---for K-8th (which includes all materials, scripts, music) families with multiple student participants receive discount of $20 for each additional student.  Need-based scholarships are available upon inquiry.  High Schoolers and 8th grade interns are tuition-free. <br>
             Questions? <b id="numEmail"> (319)213-0147 / Steffran5@gmail.com</b> <b>ODYSSEY THEATRE, 315 Third St. SW, MV, IA 52314</b>
-            <div class="form">
                <form>
                   <label for="student">Student</label>
                   <input type="text" id="student" name="student" size="30">
@@ -77,11 +106,19 @@
                   <input type="text" id="phone" name="phone" size="77"><br>
                   <label for="emergency">Emergency Contact#</label>
                   <input type="text" id="emergency" name="emergency" size="67">
-                  <div>
-                     <button id="payp">Paypal</button> <button id="ven">Venmo</button>
+               <!-- <div id="smart-button-container">
+                     <div>
+                     <div id="paypal-button-container"></div>
+                     </div>
+                  </div> -->
                </form>
+               <div id="smart-button-container">
+                  <div>
+                  <div id="paypal-button-container"></div>
+                  </div>
                </div>
-               <script src="js/app.js" async defer></script>
+               <form action=""></form>
+<!-- <script src="js/app.js" async defer></script> -->
          </article>
          </div>
       </main>
