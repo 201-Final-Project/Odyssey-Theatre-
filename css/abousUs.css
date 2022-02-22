@@ -63,10 +63,23 @@
     opacity: 80%;
   }
 
-  .divA {
-      text-align: left;
+  #navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(240, 240, 243);
   }
 
-  .divB {
-      text-align: right;
+  #divA {
+      background-color: beige;
+      width:50%;
+      float:left;
+  }
+
+  #divB {
+      background-color: beige;
+      width:50%;
+      float:right;
   }
