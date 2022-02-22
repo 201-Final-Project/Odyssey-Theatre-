@@ -1,37 +1,80 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/donation.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <header>
-      
-    </header>
-    <div id="donate">
-      <img src="Images/donate.JPG" alt="kids taking bow" width="1200px">
-    </div>
-    <main>
-
-      <h3>YOUR DONATION IS DEEPLY APPRECIATED!</h3>
-      <br>
-      <div id="whyDonate">
-      <p>Odyssey has a firm belief that no one will be denied the opportunity to be involved based on financial hardship. We offer full and partial scholarships to cover tuition for the workshops. We also offer college scholarships to graduating students that have been returning students of Odyssey Theatre. Odyssey is a registered 501c3.</p>
-    </div>
-    </main>
-    <section>
-      <button id="payp">Paypal</button> <button id="ven">Venmo</button>
-    </section>
-    <footer>
-      Covid still exists, be careful.
-    </footer>
-    
-    <script src="js/app.js" async defer></script>
-  </body>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title></title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/donation.css">
+      <link rel="stylesheet" href="css/style.css">
+      <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+      <script>
+         function initPayPalButton() {
+           paypal.Buttons({
+             style: {
+               shape: 'rect',
+               color: 'gold',
+               layout: 'vertical',
+               label: 'paypal',
+               
+             },
+         
+             createOrder: function(data, actions) {
+               return actions.order.create({
+                 purchase_units: [{"description":"Tuition","amount":{"currency_code":"USD","value":1}}]
+               });
+             },
+         
+             onApprove: function(data, actions) {
+               return actions.order.capture().then(function(orderData) {
+                 
+                 // Full available details
+                 console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+         
+                 // Show a success message within this page, e.g.
+                 const element = document.getElementById('paypal-button-container');
+                 element.innerHTML = '';
+                 element.innerHTML = '<h3>Thank you for your payment!</h3>';
+         
+                 // Or go to another URL:  actions.redirect('thank_you.html');
+                 
+               });
+             },
+         
+             onError: function(err) {
+               console.log(err);
+             }
+           }).render('#paypal-button-container');
+         }
+         initPayPalButton();
+      </script>
+   </head>
+   <body>
+      <header>
+      </header>
+      <div id="donate">
+         <img src="Images/donate.JPG" alt="kids taking bow" width="1200px">
+      </div>
+      <main>
+         <h3>YOUR DONATION IS DEEPLY APPRECIATED!</h3>
+         <br>
+         <div id="whyDonate">
+            <p>Odyssey has a firm belief that no one will be denied the opportunity to be involved based on financial hardship. We offer full and partial scholarships to cover tuition for the workshops. We also offer college scholarships to graduating students that have been returning students of Odyssey Theatre. Odyssey is a registered 501c3.</p>
+         </div>
+      </main>
+      <section>
+         <div id="smart-button-container">
+            <div style="text-align: center;">
+               <div id="paypal-button-container"></div>
+            </div>
+         </div>
+        
+      </section>
+      <footer>
+         Covid still exists, be careful.
+      </footer>
+      <script src="js/app.js" async defer></script>
+   </body>
 </html>
