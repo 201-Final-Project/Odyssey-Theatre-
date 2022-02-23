@@ -1,13 +1,17 @@
 section{
-  margin-top: 100px;
+  float: left;
+  margin-top: 50px;
   text-align: center;
-  margin-right: 300px;
-  margin-bottom: 200px;
+  margin-right: 800px;
   font-size: x-large;
 }
 img{
   float: left;
-  margin-bottom: 100px;
-  margin-right: 200px;
+  margin-right: 100px;
   margin-left: 150px;
+  width: 500px;
+  height: 300px;
+}
+.rightImg{
+  float: right;
 }
