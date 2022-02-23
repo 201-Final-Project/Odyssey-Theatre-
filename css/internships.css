@@ -1,17 +1,25 @@
-section{
-  float: left;
-  margin-top: 50px;
-  text-align: center;
-  margin-right: 800px;
-  font-size: x-large;
-}
 img{
   float: left;
-  margin-right: 100px;
-  margin-left: 150px;
-  width: 500px;
-  height: 300px;
+  max-width: 450px;
+  max-height: 300px;
 }
 .rightImg{
   float: right;
+}
+.centerText{
+  margin: 0 auto;
+  font-size: x-large;
+  text-align: center;
+  width: 700px;
+  padding-bottom: 250px;
+}
+.centerMiddleText{
+  margin: 0 auto;
+  font-size: x-large;
+  text-align: center;
+  width: 700px;
+  padding-bottom: 180px;
+}
+#makeup{
+  margin-left: 70px;
 }
