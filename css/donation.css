@@ -1,39 +1,31 @@
-div{
+div {
   text-align: center;
 }
-body{
-  /* width: 1200px; */
+
+body {
   margin: 0 auto;
 }
-main{
+
+main {
   margin: auto;
   text-align: center;
-  /* width: 800px; */
   padding-top: 49px;
 }
-p{
-  font-size: 30px;
-}
+
 
 #donate {
   align-items: center;
  }
 
  #whyDonate {
-   margin-left: 250px;
+   font-size: 30px;
+   margin-left: 450px;
    margin-right: 250px;
    margin-bottom: 50px;
-   font-size: px;
+   width: 800px;
  }
  
- 
-/* section{
-  padding-top: 40px;
-  padding-left: 400px;
-} */
-
-
-footer{
+ footer {
   position: fixed;
   left: 0;
   bottom: 0;
