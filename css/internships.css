@@ -1,3 +1,7 @@
+body{
+  margin-left: 30px;
+  margin-right: 30px;
+}
 img{
   float: left;
   max-width: 450px;
@@ -6,20 +10,34 @@ img{
 .rightImg{
   float: right;
 }
-.centerText{
+#centerText{
   margin: 0 auto;
-  font-size: x-large;
+  font-size: 40px;
   text-align: center;
   width: 700px;
-  padding-bottom: 250px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
-.centerMiddleText{
+#centerMiddleText{
   margin: 0 auto;
-  font-size: x-large;
+  font-size: 40px;
   text-align: center;
   width: 700px;
-  padding-bottom: 180px;
+}
+#centerBottomText{
+  margin: 0 auto;
+  font-size: 40px;
+  text-align: center;
+  width: 700px;
+  padding-top: 100px;
+padding-bottom: 70px;
 }
 #makeup{
   margin-left: 70px;
+}
+h1{
+  text-align: center;
+  color: black;
+  font-size: 80px;
+  margin-bottom: 50px;
 }
