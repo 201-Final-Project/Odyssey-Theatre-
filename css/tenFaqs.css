@@ -2,6 +2,7 @@
 * { 
   box-sizing: border-box;
 }
+
  body {
   width: 90vw; 
   margin-top: 30px;
@@ -13,30 +14,26 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   color: rgb(115, 72, 131);
   font-size: 70px;
-  /* display: flex;
-  justify-content: center; */
 }
+
 h4 {
   font-family: 'Montserrat', sans-serif;
   color: aquamarine;
   font-size: 30px;
-  
 }
+
 h5 {
   font-family: 'Montserrat', sans-serif;
   color: rgb(115, 72, 131);
   font-size: 30px;
 }
+
 p {
-  /* font-family: 'Montserrat', sans-serif; */
   color: rgb(109, 101, 112);
   font-size: 16px; 
 }
+
 img {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: start; */
-  /* display: grid; */
   width: 400px;
   height: 400px;
 }
