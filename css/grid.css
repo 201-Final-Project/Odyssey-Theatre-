@@ -11,6 +11,7 @@
   .div1h {
      grid-area: 1 / span 3; 
      text-align: center;
+     margin-bottom: 30px;
     }
   .div2h {
     grid-area: 2 / span 2;
@@ -18,6 +19,8 @@
 
   .div1c {
     grid-area: 2 / 1 / 15 / 2;
+    margin-right: 60px;
+    margin-left: 30px;
   }
 
   .div2c { 
