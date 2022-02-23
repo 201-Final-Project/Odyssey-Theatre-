@@ -52,7 +52,6 @@ p {
 html, body {
   margin: 0 auto;
   height: 100%;
-  overflow: hidden;
   text-align: center;
 }
 #stage {
