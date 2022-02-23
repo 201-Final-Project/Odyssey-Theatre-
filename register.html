@@ -6,8 +6,14 @@
         <title>REGISTER</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+       
+      
+
         <link rel="stylesheet" href="/css/reset.css">
         <link rel="stylesheet" href="/css/register.css">
+        <link rel="stylesheet" href="css/otherNav.css">
+
         <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
         <script>
             function initPayPalButton() {
@@ -43,21 +49,32 @@
         </script>
     </head>
     <body>
-        <header>
-            <nav>
-                <ul id="navbar">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="register.html">Register</a></li>
-                    <li><a href="internships.html">Internships</a></li>
-                    <li><a href="tenFaqs.html">10 FAQS</a></li>
-                    <li><a href="becomeInvolved.html">Become Involved</a></li>
-                    <li><a href="workshops.html">Workshops</a></li>
-                    <li><a href="aboutUs.html">About Us</a></li>
-                    <li><a href="aboutUsWD.html">About Us W.D.</a></li>
-                </ul>
-            </nav>
-        </header>
+        
+         <nav id="navbar" class="navigation" role="navigation">
+           <input id="toggle1" type="checkbox" />
+           <label class="hamburger1" for="toggle1">
+             <div class="top"></div>
+             <div class="meat"></div>
+             <div class="bottom"></div>
+           </label>
+         
+           <nav class="menu1">
+             <a class="link1" href="index.html">Home</a>
+             <a class="link1" href="register.html">Register</a>
+             <a class="link1" href="tenFaqs.html">FAQ</a>
+             <a class="link1" href="workshops.html">Workshops</a>
+             <a class="link1" href="aboutUs.html">About Us</a>
+             <a class="link1" href="internships.html">Internships</a>
+             <a class="link1" href="aboutUsWD.html">Dev Team</a>
+             <a class="link1" href="becomeInvolved">Get Involved</a>
+             <a class="link1" href="pastProductions">Past Productions</a>
+             <a class="link1" href="donation">Donate</a> 
+           </nav>
+       </nav>
+       </section>
+
         <main>
+            <h3>Register</h3>
             <section class="imagesLeft">
                 <img src="Images/register4.jpg" alt="">
                 <img src="Images/register6.jpg" alt="">
@@ -72,7 +89,7 @@
                 <img src="Images/register14.jpg" alt="">
                 <img src="Images/register12.jpg" alt="">
             </section>
-            <h3>Register</h3>
+            <!-- <h3>Register</h3> -->
             <article id="OdysseyRegistrationForm">
                 <b id="topTitle">Odyssey Theatre's</b> <br>
                 <img src="Images/formArt.jpg" alt="Figure touching stars" height="100">
@@ -120,12 +137,15 @@
                     <input type="text" id="iName" name="iName" size="22">
                     <label for="parGuard">(parent/guardian) of</label>
                     <input type="text" id="parGuard" name="parGuard" size="22"> who is/will be a student enrolled in Odyssey Theatre for the Young of Art's workshop do hereby expressly authorize any of the following steps, when deemed necessary and appropriate by Odyssey personnel, to be taken by Odyssey staff in the event of a medical emergency involving my child/ward, which may arise on the premises of the school during an Odyssey sponsored activity.
-<ul>
+
+                    
+                  <ul>
                    <li> -To notify and request aid, if appropriate, of trained emergency medical personnel for immediate treatment of my child/ward.</li>
                    
                    <li> -To transport my child/ward to the nearest medical facility for appropriate medical treatment.</li>
- </ul>
+                  </ul>
  
+
                     It is agreed that Odyssey personnel along with authorized medical personnel will have the exclusive and immediate right to determine when, in its judgment, such medical emergency shall exist. If in the judgment of Odyssey personnel it is appropriate, under the circumstances, Odyssey will also attempt to contact me and the person/persons I have named as my emergency contact on the Odyssey registration, before taking any of the above listed emergency steps. <br>
                     It is agreed that if and when Odyssey personnel does report the matter to me, as the parent/guardian, Odyssey will then no longer have principal responsibility for the emergency care of my child/ward but will become the agent of myself, the parent/guardian. <br>
                     It is agreed that any and all such emergency medical expense(s) for the necessary treatment will be the complete responsibility of myself, the parent/guardian. It is agreed that I, the parent/guardian, will reimburse Odyssey for any expense incurred by Odyssey on behalf of my child/ward for such emergency treatment.
