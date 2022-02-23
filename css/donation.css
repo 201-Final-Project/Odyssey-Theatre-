@@ -11,26 +11,23 @@ main{
   /* width: 800px; */
   padding-top: 49px;
 }
-p{
-  font-size: 30px;
-}
+
 
 #donate {
   align-items: center;
  }
 
  #whyDonate {
-   margin-left: 250px;
+   /* text-align: center; */
+   font-size: 30px;
+   margin-left: 450px;
    margin-right: 250px;
    margin-bottom: 50px;
-   font-size: px;
+   width: 800px;
  }
  
  
-/* section{
-  padding-top: 40px;
-  padding-left: 400px;
-} */
+
 
 
 footer{
