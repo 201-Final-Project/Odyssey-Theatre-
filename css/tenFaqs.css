@@ -14,8 +14,6 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   color: rgb(115, 72, 131);
   font-size: 70px;
-  /* display: flex;
-  justify-content: center; */
 }
 
 h4 {
@@ -31,7 +29,6 @@ h5 {
 }
 
 p {
-  /* font-family: 'Montserrat', sans-serif; */
   color: rgb(109, 101, 112);
   font-size: 16px; 
 }
