@@ -1,11 +1,4 @@
-#navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-  color: rgb(240, 240, 243);
-}
+
 article {
   float: center;
   background-color: rgb(206, 245, 245);
@@ -13,7 +6,8 @@ article {
   font-size: larger;
   margin-top: 10px; margin-right: auto; margin-bottom: 0px; margin-left: auto;
 }
-h3 {margin-top:30px ;
+h3 {
+  margin-bottom:30px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: rgb(115, 72, 131);
@@ -47,13 +41,16 @@ b {
   font-size: xx-large;
   font-weight: 1000px;
 }
+
 #numEmail {
 font-size: medium;
 }
+
 img {
   padding-top: 10px;
   padding-left: 30px;
 }
+
 button {
   float: left;
   margin-top: 55px;
@@ -64,7 +61,6 @@ button {
   font-weight: 900;
 }
 .imagesLeft {
-  margin-top: 30px;
   margin-left: 110px;
   display: flex;
   flex-direction: column; 
@@ -72,7 +68,6 @@ button {
   float: left;
 }
 .imagesRight {
-  margin-top: 30px;
   margin-right: 130px;
   display: flex;
   flex-direction: column; 
