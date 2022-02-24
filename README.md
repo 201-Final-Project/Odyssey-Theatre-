@@ -17,3 +17,6 @@ about site
 
 * Consider including the answers to your daily journal and submission questions here
 * This is also a good place to reflect on the tools and resources used and learned
+
+[project wireframe](https://github.com/201-Final-Project/Odyssey-Theatre-/blob/main/assets/wireframe.png)
+[project board](https://github.com/orgs/201-Final-Project/projects)
