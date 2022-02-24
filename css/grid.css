@@ -24,16 +24,24 @@
 .div2i { 
   grid-area: 2 / 2 / 4 / 3;
   margin-top: 20px;
-  }
+}
 .div1i { 
   grid-area: 4 / 2 / 6 / 3;
   margin-top: 20px;
-  }
+}
 .div4i { 
   grid-area: 6 / 2 / 8 / 3;
   margin-top: 20px;
-  }
+}
 .div5i { 
   grid-area: 8 / 2 / 10 / 3;
   margin-top: 20px;
-  }
+}
+.div6i { 
+  grid-area: 10 / 2 / 12 / 3;
+  margin-top: 20px;
+}
+.div7i { 
+  grid-area: 10 / 2 / 14 / 3;
+  margin-top: 20px;
+}
