@@ -1,0 +1,47 @@
+body {
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin: 0 auto;
+  height: 100%;
+  text-align: center;
+  background-color: black;
+  } 
+
+
+
+
+  
+
+
+
+
+p{
+  padding: 10px;
+  font-size: 18px;
+}
+
+
+div{
+  margin-right: 20px;
+  float: left;
+}
+
+
+.divA {
+    background-color:whitesmoke;
+    width:650px;
+ 
+ }
+
+.divB {
+    background-color: whitesmoke;
+    width:650px;
+   
+}
+
+#karlaimg {
+  margin-right: 20px;
+  margin-left: 50px;
+    float:left;
+}
