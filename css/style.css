@@ -17,6 +17,11 @@
 
 h1 {
   font-family: 'Montserrat', sans-serif;
+
+  color: rgb(115, 72, 131, 20%);
+  /* background-color: black; */
+ 
+
   color: #fff;
   font-size: 250px;
   opacity: 80%;
@@ -26,7 +31,9 @@ h2 {
   color: aquamarine;
   font-size: 70px;
   opacity: 80%;
+  margin-bottom: 60px;
 }
+
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: rgb(115, 72, 131);
@@ -49,6 +56,30 @@ p {
   color: rgb(115, 72, 131);
   font-size: 16px; 
 }
+/* .linkDonate {
+  margin-top: 50px;
+  background-color: #fff;
+  color: aquamarine;
+  padding: 14px 25px;
+  text-align: center;
+  /* text-decoration: none; */
+  /* display: inline-block;
+}  */
+
+.linkDonate {
+  margin-top: 60px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  border: none;
+  color: #04AA6D;;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+.linkDonate {border-radius: 20px;}
 
 footer{
   position: fixed;

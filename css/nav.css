@@ -50,7 +50,7 @@ a {
 }
 
 #toggle1:checked ~ .menu1 {
-  height: 480px;
+  height: 430px;
 }
 
 /* Menu */
@@ -76,13 +76,13 @@ a {
   transition: all 0.3s ease;
 }
 
-.menu1 a:nth-child(7) {
+/* .menu1 a:nth-child(7) {
   margin-bottom: 100px;
 }
 
 .menu1 a:last-child {
   margin-bottom: 100px;
-}
+} */
 
 .link1 {
   width: 100%;
