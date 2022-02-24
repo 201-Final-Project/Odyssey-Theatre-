@@ -11,7 +11,9 @@ about site
 ### Links and Resources
 
 * [Eric Meyers reset.css](http://meyerweb.com/eric/tools/css/reset/)
-* [code 201 class repo](https://github.com/DeltaVCode/cedarrapids-code-201n3)
+* [Code 201 class repo](https://github.com/DeltaVCode/cedarrapids-code-201n3)
+* [Fading slideshow code](https://codepen.io/danielguillan/pen/kNjzLM)
+* [Dropdown Nav Bar](https://codepen.io/ngochuynh/pen/yKrvVZ)
 
 ### Reflections and Comments
 
