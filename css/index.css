@@ -1,38 +1,21 @@
 body {
-    background-color: black;
+  background-color: black;
 }
-/* #stage {
-  width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-} */
-
 img {
-  /* margin: 0 auto;
-  text-align: left; */
   position: absolute;
-  /* left: 0px;
-  top: 0px; */
-  /* width: vw; */
   transition: opacity 2s ease-in;
-  /* width: 1700px;
-  height: 100vh; */
-  /* display: block; */
-  /* width: auto;
-  height: auto; */
   max-width: 100%;
 }
-
 img + img { 
   opacity: 0; 
 }
-
 #Title {
   text-align: center;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+#dontext{
+  color: rgb(94, 187, 156);
 }

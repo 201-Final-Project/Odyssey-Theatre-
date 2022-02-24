@@ -1,27 +1,9 @@
  * { 
   box-sizing: border-box;
 }
-
-/* html, body {
-  margin: 0 auto;
-  height: 100%;
-  overflow: hidden;
-  text-align: center;
-}  */
-
-/* body {
-  margin-top: 30px;
-  margin-right: 50px;
-  margin-left: 50px;
-}  */
-
 h1 {
   font-family: 'Montserrat', sans-serif;
-
   color: rgb(115, 72, 131, 20%);
-  /* background-color: black; */
- 
-
   color: #fff;
   font-size: 250px;
   opacity: 80%;
@@ -33,7 +15,6 @@ h2 {
   opacity: 80%;
   margin-bottom: 60px;
 }
-
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: rgb(115, 72, 131);
@@ -52,20 +33,9 @@ h5 {
   font-size: 20px;
 }
 p {
-  /* font-family: 'Montserrat', sans-serif; */
   color: rgb(115, 72, 131);
   font-size: 16px; 
 }
-/* .linkDonate {
-  margin-top: 50px;
-  background-color: #fff;
-  color: aquamarine;
-  padding: 14px 25px;
-  text-align: center;
-  /* text-decoration: none; */
-  /* display: inline-block;
-}  */
-
 .linkDonate {
   margin-top: 60px;
   font-family: 'Montserrat', sans-serif;
@@ -79,8 +49,9 @@ p {
   font-size: 16px;
   margin: 4px 2px;
 }
-.linkDonate {border-radius: 20px;}
-
+.linkDonate {
+  border-radius: 20px;
+}
 footer{
   position: fixed;
   left: 0;
