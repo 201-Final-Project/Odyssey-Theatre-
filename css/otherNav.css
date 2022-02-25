@@ -1,7 +1,7 @@
 a {
-  color: #fff;
+  color: rgb(133, 111, 39);
   text-decoration: none;
-  text-shadow: -2px -2px rgb(115, 72, 131) ;
+  text-shadow: -2px -2px rgb(59, 61, 45) ;
   text-shadow: 2px 2px rgb(115, 72, 131) ;
 }
 
@@ -51,19 +51,19 @@ a {
 }
 
 #toggle1:checked ~ .menu1 {
-  height: 480px;
+  height: 650px;
 }
 
 /* Menu */
 .menu1 {
   width: 100%;
-  background-color: rgb(115, 72, 131);
-  background-image: linear-gradient(rgb(115, 72, 131), white);
+   background-color: rgb(115, 72, 131, 0%); 
+  background-image: linear-gradient(rgba(249, 249, 249), rgb(249, 249, 249, .8));
   opacity: .9;
   margin: 0;
   display: grid;
   grid-template-rows: 1fr repeat(4, 0.5fr);
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-row-gap: 25px;
   padding: 0;
   list-style: none;
@@ -102,7 +102,8 @@ a {
 }
 
 .logo-img{
-  float: left;
-  position: relative;
-  margin: 10px 15px 15px 10px;
+margin-left: 35px;
+padding: none;
+
+  
 }
