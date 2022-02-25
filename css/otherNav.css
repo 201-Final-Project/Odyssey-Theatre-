@@ -5,9 +5,9 @@ a {
   text-shadow: 2px 2px rgb(115, 72, 131) ;
 }
 
-.p-menu1{
+/* .p-menu1{
    /* height: 100%; */
-}
+/* }  */
 
 /* Hamburger */
 .hamburger1 {
@@ -99,4 +99,10 @@ a {
   color: rgb(61, 61, 61);
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+
+.logo-img{
+  float: left;
+  position: relative;
+  margin: 10px 15px 15px 10px;
 }

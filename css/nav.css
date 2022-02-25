@@ -56,7 +56,7 @@ a {
 /* Menu */
 .menu1 {
   width: 100%;
-  background-color: #000;
+  background-color: rgb(0, 0, 0 , .80);
   margin: 0;
   display: grid;
   grid-template-rows: 1fr repeat(4, 0.5fr);
@@ -74,6 +74,7 @@ a {
   position: absolute;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  
 }
 
 /* .menu1 a:nth-child(7) {
