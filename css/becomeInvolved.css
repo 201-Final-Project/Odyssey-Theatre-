@@ -1,8 +1,13 @@
-img {
-  width: 300px;
-  padding: 80px;
+body{
+  text-align: center;
+  font-size: 29px;
+  color: rgb(115, 72, 131);
 }
-
-/* main {
-  float: right;
-} */
+h1{
+  font-size: 100px;
+  color: rgb(115, 72, 131);
+  margin-bottom: 90px;
+}
+hr{
+  margin: 35px;
+}
