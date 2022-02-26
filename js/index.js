@@ -2,14 +2,13 @@
 
 console.log('js file is connected');
 
-// let userName = prompt('You\'ve reached the Odyssey Children\'s Theatre website.  Could we have your name?');
+let userName = prompt('You\'ve reached the Odyssey Children\'s Theatre website.  Could we have your name?');
 
-// while (!userName) {
-//   userName = prompt ('Please enter your name.');
-// };
+while (!userName) {
+  userName = prompt ('Please enter your name.');
+};
 
-// alert('Welcome ' + userName + ', thankyou for visiting!');
-
+alert('Welcome ' + userName + ', thank you for visiting!');
 
 // Source code for slide show
 // https://codepen.io/danielguillan/pen/kNjzLM
