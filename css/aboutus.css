@@ -4,7 +4,7 @@ body {
     margin-left: 50px;
     margin: 0 auto;
   height: 100%;
-  text-align: center;
+  text-align: left;
   background-color: black;
   } 
 
@@ -30,19 +30,25 @@ div{
 
 .divA {
     background-color:whitesmoke;
-    width:650px;
-    margin-left: 30px;
+    width:640px;
+    margin-left: 130px;
+    margin-right: 140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
  
  }
 
 .divB {
     background-color: whitesmoke;
-    width:650px;
-   
-}
+    width:660px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
 
 #karlaimg {
   margin-right: 20px;
   margin-left: 5px;
-    float:left;
+    float:right;
 }
