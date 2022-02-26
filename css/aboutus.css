@@ -31,6 +31,7 @@ div{
 .divA {
     background-color:whitesmoke;
     width:650px;
+    margin-left: 30px;
  
  }
 
@@ -42,6 +43,6 @@ div{
 
 #karlaimg {
   margin-right: 20px;
-  margin-left: 50px;
+  margin-left: 5px;
     float:left;
 }
