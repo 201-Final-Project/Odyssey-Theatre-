@@ -60,7 +60,7 @@ a {
   margin: 0;
   display: grid;
   grid-template-rows: 1fr repeat(4, 0.5fr);
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-row-gap: 25px;
   padding: 0;
   list-style: none;
@@ -97,4 +97,11 @@ a {
   color: rgb(61, 61, 61);
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+
+#iglogo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
