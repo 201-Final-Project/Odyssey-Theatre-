@@ -16,13 +16,14 @@ img{
   font-size: 35px;
   width: 700px;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 #centerMiddleText{
   margin: 0 auto;
   font-size: 35px;
   width: 700px;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
+  padding-left: 40px;
 }
 #centerBottomText{
   margin: 0 auto;
