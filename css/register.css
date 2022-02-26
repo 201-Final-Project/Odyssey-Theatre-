@@ -71,7 +71,9 @@ button {
  }
  #form2{
    margin-top: 60px;
-   background-color: rgb(105, 23, 23);
+   padding-top: 40px;
+   padding-bottom: 40px;
+   background-color: rgb(250, 185, 185);
  }
  #form2Input{
    text-align: left;
