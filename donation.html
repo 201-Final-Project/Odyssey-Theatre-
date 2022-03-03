@@ -1,90 +1,90 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Donation</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/donation.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/otherNav.css">
-        <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
-        <script>
-            function initPayPalButton() {
-              paypal.Buttons({
-                style: {
-                  shape: 'rect',
-                  color: 'gold',
-                  layout: 'vertical',
-                  label: 'paypal',
-                },
-                createOrder: function(data, actions) {
-                  return actions.order.create({
-                    purchase_units: [{"description":"Tuition","amount":{"currency_code":"USD","value":1}}]
-                  });
-                },
-                onApprove: function(data, actions) {
-                  return actions.order.capture().then(function(orderData) {
-                    // Full available details
-                    console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-                    // Show a success message within this page, e.g.
-                    const element = document.getElementById('paypal-button-container');
-                    element.innerHTML = '';
-                    element.innerHTML = '<h3>Thank you for your payment!</h3>';
-                    // Or go to another URL:  actions.redirect('thank_you.html');
-                  });
-                },
-                onError: function(err) {
-                  console.log(err);
-                }
-              }).render('#paypal-button-container');
-            }
-            initPayPalButton();
-        </script>
-    </head>
-    <body>
-        <section class="p-menu1">
-            <nav id="navbar" class="navigation" role="navigation">
-                <input id="toggle1" type="checkbox" />
-                <label class="hamburger1" for="toggle1">
-                    <div class="top"></div>
-                    <div class="meat"></div>
-                    <div class="bottom"></div>
-                </label>
-                <nav class="menu1">
-                    <a class="link1" href="index.html">Home</a>
-                    <img class="logo-img" src="assets/odysseylogo.png" width="70%" >
-                    <a class="link1" href="register.html">Register</a>
-                    <a class="link1" href="tenFaqs.html">FAQ</a>
-                    <a class="link1" href="workshops.html">Workshops</a>
-                    <a class="link1" href="aboutUs.html">About Us</a>
-                    <a class="link1" href="internships.html">Internships</a>
-                    <a class="link1" href="aboutUsWD.html">Dev Team</a>
-                    <a class="link1" href="becomeInvolved.html">Get Involved</a>
-                    <a class="link1" href="pastProductions.html">Past Productions</a>
-                    <a class="link1" href="donation.html">Donate</a> 
-                </nav>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Donation</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/donation.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/otherNav.css">
+      <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+      <script>
+         function initPayPalButton() {
+           paypal.Buttons({
+             style: {
+               shape: 'rect',
+               color: 'gold',
+               layout: 'vertical',
+               label: 'paypal',
+             },
+             createOrder: function(data, actions) {
+               return actions.order.create({
+                 purchase_units: [{"description":"Tuition","amount":{"currency_code":"USD","value":1}}]
+               });
+             },
+             onApprove: function(data, actions) {
+               return actions.order.capture().then(function(orderData) {
+                 // Full available details
+                 console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+                 // Show a success message within this page, e.g.
+                 const element = document.getElementById('paypal-button-container');
+                 element.innerHTML = '';
+                 element.innerHTML = '<h3>Thank you for your payment!</h3>';
+                 // Or go to another URL:  actions.redirect('thank_you.html');
+               });
+             },
+             onError: function(err) {
+               console.log(err);
+             }
+           }).render('#paypal-button-container');
+         }
+         initPayPalButton();
+      </script>
+   </head>
+   <body>
+      <div id="imageDonate">
+         <nav id="navbar" class="navigation" role="navigation">
+            <input id="toggle1" type="checkbox" />
+            <label class="hamburger1" for="toggle1">
+               <div class="top"></div>
+               <div class="meat"></div>
+               <div class="bottom"></div>
+            </label>
+            <nav class="menu1">
+               <a class="link1" href="index.html">Home</a>
+               <img class="logo-img" src="assets/odysseylogo.png" width="70%" >
+               <a class="link1" href="register.html">Register</a>
+               <a class="link1" href="tenFaqs.html">FAQ</a>
+               <a class="link1" href="workshops.html">Workshops</a>
+               <a class="link1" href="aboutUs.html">About Us</a>
+               <a class="link1" href="internships.html">Internships</a>
+               <a class="link1" href="aboutUsWD.html">Dev Team</a>
+               <a class="link1" href="becomeInvolved.html">Get Involved</a>
+               <a class="link1" href="pastProductions.html">Past Productions</a>
+               <a class="link1" href="donation.html">Donate</a> 
             </nav>
-        </section>
-        <div id="donate">
-            <img src="Images/donation.png" alt="kids taking bow" width="1300px">
-        </div>
-        <main>
-            <h3>YOUR DONATION IS DEEPLY APPRECIATED!</h3>
-            <br>
-            <div>
-                <p id="whyDonate">Odyssey has a firm belief that no one will be denied the opportunity to be involved based on financial hardship. We offer full and partial scholarships to cover tuition for the workshops. We also offer college scholarships to graduating students that have been returning students of Odyssey Theatre. Odyssey is a registered 501c3.</p>
+         </nav>
+         <div class="hands">
+            <img src="Images/donation.png" alt="kids taking bow">
+            <h2>YOUR DONATION IS DEEPLY APPRECIATED!</h2>
+         </div>
+      </div>
+      <main>
+         <div>
+            <p id="whyDonate">Odyssey has a firm belief that no one will be denied the opportunity to be involved based on financial hardship. We offer full and partial scholarships to cover tuition for the workshops. We also offer college scholarships to graduating students that have been returning students of Odyssey Theatre. Odyssey is a registered 501c3.</p>
+         </div>
+     
+      <section>
+         <div id="smart-button-container">
+            <div style="text-align: center;">
+               <div id="paypal-button-container"></div>
             </div>
-        </main>
-        <section>
-            <div id="smart-button-container">
-                <div style="text-align: center;">
-                    <div id="paypal-button-container"></div>
-                </div>
-            </div>
-        </section>
-        <script src="js/app.js" async defer></script>
-    </body>
+         </div>
+      </section>
+    </main>
+      <script src="js/app.js" async defer></script>
+   </body>
 </html>
