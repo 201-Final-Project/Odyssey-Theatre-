@@ -14,7 +14,7 @@ img {
   align-items: center;
 }
 
-maingt {
+main {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
