@@ -16,7 +16,8 @@ body{
 }
 .p-menu1 {
   position: fixed;
-  margin-left: 1550px;
+  float: right;
+  width: 100%;
   /* display: flex; 
   justify-content: flex-end;
   position: fixed; */
