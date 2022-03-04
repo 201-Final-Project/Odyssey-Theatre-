@@ -1,20 +1,24 @@
 body {
   margin-top: 50px;
-  margin-right: 60px;
-  margin-left: 60px;
+  margin-right: 750px;
+  margin-left: 75px;
   margin: 0 auto;
   height: 100%;
   text-align: left;
   background-color: black;
+  }
+  main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   } 
 
-h2a{
+h2a {
   padding-bottom: 30px;
-  margin-left: 50px;
   font-family: 'Montserrat', sans-serif;
   color: aquamarine;
   font-size: 70px;
-  width: 620px;
+  width:650px;
 }
 
 p{
@@ -22,52 +26,50 @@ p{
   font-size: 18px;
 }
 
-.divA {
+.historyBox {
     display:flex;
     justify-content: flex-start;
     flex-direction: column;
     background-color:white;
     color: black;
-    width: 620px;
-    margin-left: 50px;
-    /* margin-right: 20px;  */
+    width: 600px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
     padding-top: 30px;
+    margin-top: 30px;
  }
+ 
 
-section.history {
-  width: 620px;
- }
 
  h2b {
   padding-bottom: 30px;
   font-family: 'Montserrat', sans-serif;
   color: aquamarine;
   font-size: 70px;
+  width:650px;
+  /* float: right; */
  }
 
-.divB {
+.directorBox {
     float: right;
     background-color: white;
     color: none;
-    width:620px;
+    width:600px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
     padding-top: 30px;
-    height: 620px;
-    /* margin-left: 50px; */
-  }
-
-.director {
-  display: flex;
-  flex-direction: column;
-  float:right; 
-  width: 620px;
-  margin-right: 50px;
+    margin-right: 100px;
 }
+.director {
+display: flex;
+flex-direction: column;
+}
+      
+      
+    
+
 
 #karlaimg {
   margin-right: 20px;
