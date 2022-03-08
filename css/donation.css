@@ -1,24 +1,33 @@
-div {
-  text-align: center;
-}
+
 body {
   margin: 0 auto;
 }
-main {
-  margin: auto;
+
+h2 {
   text-align: center;
-  padding-top: 49px;
+  background-color: black;
+  margin-top: none;
 }
-#donate {
+
+img {
+  width: 100%;
   align-items: center;
 }
-#whyDonate {
-  font-size: 30px;
-  margin-left: 550px;
-  margin-right: 350px;
-  margin-bottom: 50px;
-  width: 800px;
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
-p{
+#whyDonate {
+  color: black;
   font-size: 30px;
+  font-display: flex;
+  justify-content: flex-start;
+  width: 850px;
+  text-align: left;
+}
+#smart-button-container {
+  float: right;
+  width: 400px;
 }
