@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   margin-top: 0px;
   margin-right: 750px;
   margin-left: 75px;
@@ -55,8 +56,37 @@ p{
 
  }
  
+=======
+	margin-top: 50px;
+	margin-right: 750px;
+	margin-left: 75px;
+	margin: 0 auto;
+	height: 100%;
+	text-align: left;
+	background-color: black;
+}
 
+main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
 
+.h2Title {
+	padding-bottom: 30px;
+	font-family: 'Montserrat', sans-serif;
+	color: aquamarine;
+	font-size: 70px;
+	width: 650px;
+}
+>>>>>>> main
+
+p {
+	padding: 20px;
+	font-size: 18px;
+}
+
+<<<<<<< HEAD
 
 .directorBox {
     float: right;
@@ -65,18 +95,41 @@ p{
     width:600px;
     padding-bottom: 30px;
     margin-right: 100px;
+=======
+.historyBox {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	background-color: white;
+	color: black;
+	width: 600px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	margin-top: 30px;
 }
-.director {
-display: flex;
-flex-direction: column;
-}
-      
-      
-    
 
+.directorBox {
+	float: right;
+	background-color: white;
+	color: none;
+	width: 600px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	margin-right: 100px;
+>>>>>>> main
+}
+
+.director {
+	display: flex;
+	flex-direction: column;
+}
 
 #karlaimg {
-  margin-right: 20px;
-  margin-left: 5px;
-  float: right;
+	margin-right: 20px;
+	margin-left: 5px;
+	float: right;
 }

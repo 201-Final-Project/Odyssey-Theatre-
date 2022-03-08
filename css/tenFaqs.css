@@ -1,32 +1,43 @@
-* { 
-  box-sizing: border-box;
+* {
+	box-sizing: border-box;
 }
- body {
-  width: 90vw; 
-  margin-top: 20px;
-  margin-right: 50px;
-  margin-left: 50px;
-}  
+
+body {
+	width: 90vw;
+	margin-top: 20px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
 h3 {
-  font-family: 'Montserrat', sans-serif;
-  color: rgb(115, 72, 131);
-  font-size: 70px;
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(115, 72, 131);
+	font-size: 70px;
 }
+
 h4 {
-  font-family: 'Montserrat', sans-serif;
-  color: aquamarine;
-  font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+	color: aquamarine;
+	font-size: 30px;
 }
+
 h5 {
-  font-family: 'Montserrat', sans-serif;
-  color: rgb(115, 72, 131);
-  font-size: 30px;
-  margin-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(115, 72, 131);
+	font-size: 30px;
+	margin-top: 30px;
 }
+
 p {
-  color: rgb(115, 72, 131);
-  font-size: 20px; 
+	color: rgb(115, 72, 131);
+	font-size: 20px;
 }
-.div2i, .div5i, .div4i, .div1i, .div6i, .div7i{
-  padding-bottom: 30px;
+
+.div2i,
+.div5i,
+.div4i,
+.div1i,
+.div6i,
+.div7i {
+	padding-bottom: 30px;
 }
