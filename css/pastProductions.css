@@ -1,29 +1,5 @@
-h4{
-  /* position: fixed; */
-  font-size: 70px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-body{
-  background-color: black;
-}
-.flexPast{
-  display: flex;
-  flex-direction: row;
-  /* flex-wrap: wrap; */
-  /* align-content: center; */
-  width: 450px;
-}
-.p-menu1 {
-  position: fixed;
-  float: right;
-  width: 100%;
-  /* display: flex; 
-  justify-content: flex-end;
-  position: fixed; */
-  /* flex-direction: row; */
-  
-}
+
+
 
 img{
   padding-top: 50px;
