@@ -1,78 +1,65 @@
 body {
-  margin-top: 50px;
-  margin-right: 750px;
-  margin-left: 75px;
-  margin: 0 auto;
-  height: 100%;
-  text-align: left;
-  background-color: black;
-  }
-  main{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  } 
-
-h2a {
-  padding-bottom: 30px;
-  font-family: 'Montserrat', sans-serif;
-  color: aquamarine;
-  font-size: 70px;
-  width:650px;
+	margin-top: 50px;
+	margin-right: 750px;
+	margin-left: 75px;
+	margin: 0 auto;
+	height: 100%;
+	text-align: left;
+	background-color: black;
 }
 
-p{
-  padding: 20px;
-  font-size: 18px;
+main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.h2Title {
+	padding-bottom: 30px;
+	font-family: 'Montserrat', sans-serif;
+	color: aquamarine;
+	font-size: 70px;
+	width: 650px;
+}
+
+p {
+	padding: 20px;
+	font-size: 18px;
 }
 
 .historyBox {
-    display:flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    background-color:white;
-    color: black;
-    width: 600px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    margin-top: 30px;
- }
- 
-
-
- h2b {
-  padding-bottom: 30px;
-  font-family: 'Montserrat', sans-serif;
-  color: aquamarine;
-  font-size: 70px;
-  width:650px;
-  /* float: right; */
- }
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	background-color: white;
+	color: black;
+	width: 600px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	margin-top: 30px;
+}
 
 .directorBox {
-    float: right;
-    background-color: white;
-    color: none;
-    width:600px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    margin-right: 100px;
+	float: right;
+	background-color: white;
+	color: none;
+	width: 600px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	margin-right: 100px;
 }
-.director {
-display: flex;
-flex-direction: column;
-}
-      
-      
-    
 
+.director {
+	display: flex;
+	flex-direction: column;
+}
 
 #karlaimg {
-  margin-right: 20px;
-  margin-left: 5px;
-  float: right;
+	margin-right: 20px;
+	margin-left: 5px;
+	float: right;
 }
