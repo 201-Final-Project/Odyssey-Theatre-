@@ -107,3 +107,29 @@ footer {
 .becomeInvolvedHR {
   margin: 35px;
 }
+
+
+/* index page  */
+#Title {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#dontext{
+  color: rgb(94, 187, 156);
+}
+
+.bodyBackground {
+  background-color: black;
+}
+.imgSliderClass {
+  position: absolute;
+  transition: opacity 2s ease-in;
+  max-width: 100%;
+}
+.imgSliderClass + img { 
+  opacity: 0; 
+} 
