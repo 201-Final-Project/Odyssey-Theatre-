@@ -7,7 +7,8 @@ body {
   text-align: left;
   background-color: black;
   }
-  main{
+
+main{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -21,7 +22,7 @@ h2 {
   width:650px;
 }
 
-p{
+p {
   padding: 20px;
   font-size: 18px;
 }
@@ -41,22 +42,6 @@ p{
  }
  
 
-
- h2 {
-  padding-bottom: 30px;
-  font-family: 'Montserrat', sans-serif;
-  color: aquamarine;
-  font-size: 70px;
-  width:650px;
-  /* float: right; */
- }
-
-
-
-
-
-
- 
 .directorBox {
     float: right;
     background-color: white;
