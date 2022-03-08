@@ -1,33 +1,34 @@
-
 body {
-  margin: 0 auto;
+	margin: 0 auto;
 }
 
 h2 {
-  text-align: center;
-  background-color: black;
-  margin-top: none;
+	text-align: center;
+	background-color: black;
+	margin-top: none;
 }
 
 img {
-  width: 100%;
-  align-items: center;
+	width: 100%;
+	align-items: center;
 }
 
 main {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
+
 #whyDonate {
-  color: black;
-  font-size: 30px;
-  font-display: flex;
-  justify-content: flex-start;
-  width: 850px;
-  text-align: left;
+	color: black;
+	font-size: 30px;
+	font-display: flex;
+	justify-content: flex-start;
+	width: 850px;
+	text-align: left;
 }
+
 #smart-button-container {
-  float: right;
-  width: 400px;
+	float: right;
+	width: 400px;
 }
