@@ -88,3 +88,22 @@ footer {
 .linkDonate {
 	border-radius: 20px;
 }
+
+
+
+
+
+/* becomeInvolved Page */
+.becomeInvolvedBody {
+  text-align: center;
+  font-size: 29px;
+  color: rgb(115, 72, 131);
+}
+.becomeInvolvedH1 {
+  font-size: 100px;
+  color: rgb(115, 72, 131);
+  margin-bottom: 90px;
+}
+.becomeInvolvedHR {
+  margin: 35px;
+}
