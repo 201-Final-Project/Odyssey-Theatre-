@@ -1,5 +1,5 @@
 body {
-  margin-top: 50px;
+  margin-top: 0px;
   margin-right: 750px;
   margin-left: 75px;
   margin: 0 auto;
@@ -13,17 +13,33 @@ body {
     justify-content: space-around;
   } 
 
-h2a {
+#historyTitle {
   padding-bottom: 30px;
   font-family: 'Montserrat', sans-serif;
   color: aquamarine;
-  font-size: 70px;
+  font-size: 65px;
+  background-color: black;
   width:650px;
+  padding-top: none;
+  padding-right: none;
+  padding-left: none;
+}
+#directorTitle {
+  padding-bottom: 30px;
+  font-family: 'Montserrat', sans-serif;
+  color: aquamarine;
+  font-size: 65px;
+  background-color: black;
+  width:600px;
+  padding-top: none;
+  padding-right: none;
+  padding-left: none;
 }
 
 p{
   padding: 20px;
   font-size: 18px;
+  background-color: white;
 }
 
 .historyBox {
@@ -33,33 +49,21 @@ p{
     background-color:white;
     color: black;
     width: 600px;
-    padding-left: 30px;
-    padding-right: 30px;
     padding-bottom: 30px;
-    padding-top: 30px;
-    margin-top: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+
  }
  
 
 
- h2b {
-  padding-bottom: 30px;
-  font-family: 'Montserrat', sans-serif;
-  color: aquamarine;
-  font-size: 70px;
-  width:650px;
-  /* float: right; */
- }
 
 .directorBox {
     float: right;
     background-color: white;
     color: none;
     width:600px;
-    padding-left: 30px;
-    padding-right: 30px;
     padding-bottom: 30px;
-    padding-top: 30px;
     margin-right: 100px;
 }
 .director {
