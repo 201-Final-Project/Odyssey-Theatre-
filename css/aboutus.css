@@ -13,7 +13,7 @@ body {
     justify-content: space-around;
   } 
 
-h2a {
+h2 {
   padding-bottom: 30px;
   font-family: 'Montserrat', sans-serif;
   color: aquamarine;
@@ -42,7 +42,7 @@ p{
  
 
 
- h2b {
+ h2 {
   padding-bottom: 30px;
   font-family: 'Montserrat', sans-serif;
   color: aquamarine;
@@ -51,6 +51,12 @@ p{
   /* float: right; */
  }
 
+
+
+
+
+
+ 
 .directorBox {
     float: right;
     background-color: white;
@@ -62,15 +68,13 @@ p{
     padding-top: 30px;
     margin-right: 100px;
 }
+
 .director {
 display: flex;
 flex-direction: column;
 }
       
-      
-    
-
-
+  
 #karlaimg {
   margin-right: 20px;
   margin-left: 5px;
