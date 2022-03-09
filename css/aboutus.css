@@ -1,19 +1,17 @@
 body {
   margin-top: 0px;
-  margin-right: 750px;
-  margin-left: 75px;
   margin: 0 auto;
   height: 100%;
   text-align: left;
   background-color: black;
   }
 
-  main{
+  main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
-  
+
   .historyBox {
     display:flex;
     justify-content: flex-start;
@@ -60,19 +58,15 @@ body {
   padding-left: none;
 }
 
-.director {
-	display: flex;
-	flex-direction: column;
-}
-
 #karlaimg {
+  width: 300px;
 	margin-right: 20px;
 	margin-left: 5px;
 	float: right;
 }
 
 p{
-  padding: 20px;
+  padding: 40px;
   font-size: 18px;
   background-color: white;
 }
