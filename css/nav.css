@@ -81,7 +81,7 @@ a {
   float: left;
   width: 25%;
   margin-top: 25px;
-  
+
 }
 
 
@@ -101,10 +101,10 @@ grid-template-columns: 1fr 1fr 1fr; */
 } */
 
 .link1 {
-  width: 100%;
+  /* width: 100%;
   margin: 0;
-  padding: 10px 0;
-  font: 700 30px 'Oswald', sans-serif;
+  padding: 10px 0; */
+  font: 700 50px 'Oswald', sans-serif;
 }
 
 .link1:hover {
@@ -112,6 +112,9 @@ grid-template-columns: 1fr 1fr 1fr; */
   color: rgb(61, 61, 61);
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 10px;
 }
 
 /* #iglogo {
