@@ -75,6 +75,7 @@ a {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   
+  
 }
 
 .menu1 ul {
@@ -87,6 +88,7 @@ a {
 .menu1 ul li{
 margin-bottom: 20px;
 text-align: left;
+margin-left: 125px;
 }
 
 
