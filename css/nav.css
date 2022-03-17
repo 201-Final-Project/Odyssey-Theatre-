@@ -77,6 +77,15 @@ a {
   
 }
 
+.menu1 ul {
+  float: left;
+  margin: 50px;
+}
+
+
+
+
+
 /* 
 grid-template-rows: 1fr repeat(4, 0.5fr);
 grid-template-columns: 1fr 1fr 1fr; */
