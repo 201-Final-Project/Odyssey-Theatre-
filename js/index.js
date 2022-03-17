@@ -7,8 +7,11 @@ console.log('js file is connected');
 // https://codepen.io/danielguillan/pen/kNjzLM
 
 var current = 0,
-    slides = document.getElementsByTagName("img");
 
+    // slides = document.getElementsByTagName("img");
+    slides = document.getElementsByClassName('imgSliderClass');
+  console.log(slides);
+  // log shows all index images for slider
 setInterval(function() {
   for (var i = 0; i < slides.length; i++) {
     slides[i].style.opacity = 0;
