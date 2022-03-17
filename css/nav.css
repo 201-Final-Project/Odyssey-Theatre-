@@ -79,7 +79,9 @@ a {
 
 .menu1 ul {
   float: left;
-  margin: 50px;
+  width: 25%;
+  margin-top: 25px;
+  
 }
 
 
