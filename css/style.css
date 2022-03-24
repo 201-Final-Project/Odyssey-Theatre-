@@ -96,17 +96,21 @@ footer {
 
 
 
+.becomeInvolvedBody  {
+	background-color: rgb(115, 72, 131);
 
+}
 
 /* becomeInvolved Page */
 .becomeInvolvedBody {
+
   text-align: center;
   font-size: 29px;
-  color: rgb(115, 72, 131);
+	color: rgb(242, 240, 243);
 }
 .becomeInvolvedH1 {
   font-size: 100px;
-  color: rgb(115, 72, 131);
+	color: rgb(242, 240, 243);
   margin-bottom: 90px;
 }
 .becomeInvolvedHR {
