@@ -1,65 +1,80 @@
 body {
-	margin-top: 50px;
-	margin-right: 750px;
-	margin-left: 75px;
-	margin: 0 auto;
-	height: 100%;
-	text-align: left;
-	background-color: black;
-}
+  margin-top: 0px;
+  margin: 0 auto;
+  height: 100%;
+  text-align: left;
+  background-color: black;
+  }
 
-main {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 
-.h2Title {
-	padding-bottom: 30px;
-	font-family: 'Montserrat', sans-serif;
-	color: aquamarine;
-	font-size: 70px;
-	width: 650px;
+  .historyBox {
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color:white;
+    color: black;
+    width: 600px;
+    padding-bottom: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
+ 
 
-p {
-	padding: 20px;
-	font-size: 18px;
-}
-
-.historyBox {
-	display: flex;
-	justify-content: flex-start;
-	flex-direction: column;
-	background-color: white;
-	color: black;
-	width: 600px;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-bottom: 30px;
-	padding-top: 30px;
-	margin-top: 30px;
+#historyTitle {
+  padding-bottom: 30px;
+  font-family: 'Montserrat', sans-serif;
+  color: aquamarine;
+  font-size: 65px;
+  background-color: black;
+  width:650px;
+  padding-top: none;
+  padding-right: none;
+  padding-left: none;
 }
 
 .directorBox {
-	float: right;
-	background-color: white;
-	color: none;
-	width: 600px;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-bottom: 30px;
-	padding-top: 30px;
-	margin-right: 100px;
+  float: right;
+  background-color: white;
+  color: none;
+  width:600px;
+  padding-bottom: 30px;
+  margin-right: 100px;
 }
 
-.director {
-	display: flex;
-	flex-direction: column;
+#directorTitle {
+  padding-bottom: 30px;
+  font-family: 'Montserrat', sans-serif;
+  color: aquamarine;
+  font-size: 65px;
+  background-color: black;
+  width:600px;
+  padding-top: none;
+  padding-right: none;
+  padding-left: none;
 }
 
 #karlaimg {
+  width: 300px;
 	margin-right: 20px;
 	margin-left: 5px;
 	float: right;
 }
+
+p{
+  padding: 40px;
+  font-size: 18px;
+  background-color: white;
+}
+ 
+
+
+ 
+
+
+
+
