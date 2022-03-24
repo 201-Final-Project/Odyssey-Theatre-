@@ -1,6 +1,10 @@
+body {
+	background-color: rgb(115, 72, 131);
+
+}
 main {
 	font-family: 'Montserrat', sans-serif;
-	color: rgb(115, 72, 131);
+	background-color: rgb(115, 72, 131);
 	display: flex;
 	justify-content: center;
 	margin-top: 150px;
@@ -9,13 +13,20 @@ main {
 h1 {
 	font-size: 70px;
 	display: flex;
+	color: rgb(242, 240, 243);
 	justify-content: center;
 	margin-bottom: 70px;
 }
-
 h2 {
 	font-family: 'Montserrat', sans-serif;
-	color: rgb(115, 72, 131);
+	color: aquamarine;
+	font-size: 70px;
+	opacity: 80%;
+	margin-bottom: 60px;
+}
+.workshops-h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(242, 240, 243);
 	font-size: 50px;
 	display: flex;
 	justify-content: center;
@@ -24,7 +35,7 @@ h2 {
 
 p {
 	font-family: 'Montserrat', sans-serif;
-	color: rgb(115, 72, 131);
+	color: rgb(242, 240, 243);
 	font-size: 40px;
 	display: flex;
 	justify-content: center;
