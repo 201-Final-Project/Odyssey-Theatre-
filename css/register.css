@@ -1,9 +1,24 @@
+body {
+  background-color: rgb(206, 245, 245);
+
+}
+
+
+
 article {
   float: center;
-  background-color: rgb(206, 245, 245);
+  background-color: rgb(241, 247, 247);
   width: 720px;
   font-size: larger;
+  padding: 25px;
   margin-top: 10px; margin-right: auto; margin-bottom: 0px; margin-left: auto;
+}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: aquamarine;
+	font-size: 70px;
+	opacity: 80%;
+	margin-bottom: 60px;
 }
 h3 {
   margin-bottom:30px;
@@ -79,10 +94,4 @@ button {
  }
  #form2Input{
    text-align: left;
- }
- ul{
-   padding: 20px;
- }
- li{
-   padding: 5px;
  }
