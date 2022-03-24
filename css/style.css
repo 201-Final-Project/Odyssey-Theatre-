@@ -39,6 +39,11 @@ h5 {
 	color: rgb(115, 72, 131);
 	font-size: 20px;
 }
+.titleH4 {
+	font-size: 55px;
+	margin-top: 75px;
+	margin-left: 75px;
+}
 
 p {
 
@@ -157,4 +162,11 @@ img
   padding-top: 50px;
   width: 450px;
   margin-right: 30px;
+}
+
+
+
+
+.pastProdMargin {
+	margin-top: 75px;
 }
