@@ -6,7 +6,7 @@ body {
 	width: 90vw;
 	margin-top: 20px;
 	margin-right: 50px;
-	margin-left: 50px;
+	
 }
 
 h3 {
@@ -29,6 +29,8 @@ h5 {
 }
 
 p {
+	margin-left: 50px;
+
 	color: rgb(115, 72, 131);
 	font-size: 20px;
 }
@@ -40,4 +42,16 @@ p {
 .div6i,
 .div7i {
 	padding-bottom: 30px;
+}
+
+
+
+.hamburger1 div {
+  background-color: rgb(54, 53, 53);
+  position: relative;
+  width: 40px;
+  height: 5px;
+  margin-top: 7px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
