@@ -1,10 +1,10 @@
 body {
-	background-color: rgb(115, 72, 131);
+	background-color: rgb(2, 1, 2);
 
 }
 main {
 	font-family: 'Montserrat', sans-serif;
-	background-color: rgb(115, 72, 131);
+	background-color: rgb(2, 2, 2);
 	display: flex;
 	justify-content: center;
 	margin-top: 150px;

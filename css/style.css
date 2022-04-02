@@ -4,8 +4,7 @@
 
 h1 {
 	font-family: 'Montserrat', sans-serif;
-	color: rgb(115, 72, 131);
-	color: #fff;
+  color: #fff;
 	font-size: 250px;
 	opacity: 80%;
 }
@@ -14,19 +13,10 @@ h2 {
 	font-family: 'Montserrat', sans-serif;
 	color: aquamarine;
 	font-size: 70px;
-	opacity: 80%;
 	margin-bottom: 60px;
 }
 
 
-
-h3 {
-	font-family: 'Montserrat', sans-serif;
-	color: rgb(115, 72, 131);
-	font-size: 40px;
-	display: flex;
-	justify-content: center;
-}
 
 h4 {
 	font-family: 'Montserrat', sans-serif;
@@ -34,20 +24,16 @@ h4 {
 	font-size: 30px;
 }
 
-h5 {
-	font-family: 'Montserrat', sans-serif;
-	color: rgb(115, 72, 131);
-	font-size: 20px;
-}
-.titleH4 {
+
+/* .titleH4 {
 	font-size: 55px;
 	margin-top: 75px;
 	margin-left: 75px;
-}
+} */
 
 p {
 
-	color: rgb(115, 72, 131);
+	color: rgb(10, 10, 10);
 	font-size: 16px;
 }
 
@@ -63,16 +49,6 @@ footer {
 	font-size: 30px;
 	padding-top: 10px;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 .linkDonate {
@@ -97,7 +73,7 @@ footer {
 
 
 .becomeInvolvedBody  {
-	background-color: rgb(115, 72, 131);
+	background-color: rgb(7, 7, 7);
 
 }
 
