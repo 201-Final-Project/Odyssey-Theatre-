@@ -4,19 +4,14 @@
 
 h1 {
 	font-family: 'Montserrat', sans-serif;
-<<<<<<< HEAD
   color: #fff;
-=======
-	/* color: rgb(115, 72, 131); */
-	color: #fff;
->>>>>>> 1d8508738ce7918a5b566ea357aa8aa289611bcf
 	font-size: 250px;
 	opacity: 80%;
 }
 
 h2 {
 	font-family: 'Montserrat', sans-serif;
-	color: aquamarine;
+	color: #68CECE;
 	font-size: 70px;
 	margin-bottom: 60px;
 }
@@ -25,7 +20,7 @@ h2 {
 
 h4 {
 	font-family: 'Montserrat', sans-serif;
-	color: aquamarine;
+	color: #25A5A5;
 	font-size: 30px;
 }
 
@@ -55,16 +50,12 @@ footer {
 	padding-top: 10px;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 1d8508738ce7918a5b566ea357aa8aa289611bcf
 .linkDonate {
 	margin-top: 60px;
 	font-family: 'Montserrat', sans-serif;
 	background-color: #fff;
 	border: none;
-	color: #04AA6D;
+	color: #25A5A5;
 	;
 	padding: 15px;
 	text-align: center;
@@ -112,7 +103,7 @@ footer {
   transform: translate(-50%, -50%);
 }
 #dontext{
-  color: rgb(94, 187, 156);
+  color: #25A5A5;
 }
 .bodyBackground {
   background-color: black;
@@ -120,7 +111,7 @@ footer {
 .imgSliderClass {
   position: absolute;
   transition: opacity 2s ease-in;
-  max-width: 100%;
+	max-width: 100%;
 }
 .imgSliderClass + img { 
   opacity: 0; 
@@ -129,7 +120,6 @@ footer {
 
 img 
 /* past production page css  */
-<<<<<<< HEAD
 .titleH4{
   font-size: 70px;
   margin-top: 50px;
@@ -159,5 +149,3 @@ img
 .pastProdMargin {
 	margin-top: 75px;
 }
-=======
->>>>>>> 1d8508738ce7918a5b566ea357aa8aa289611bcf

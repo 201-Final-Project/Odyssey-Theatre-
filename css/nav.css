@@ -6,15 +6,23 @@ a {
 
 h2 {
 	font-family: 'Montserrat', sans-serif;
-	color: aquamarine;
+	color: #68CECE;
 	font-size: 70px;
-	opacity: 80%;
+	/* opacity: 80%; */
 	margin-bottom: 60px;
 } 
 .p-menu1{
    height: 100%;
 }
-
+.logo-img {
+  display: block;
+  margin-left: 48%;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center;  */
+  margin-top: 2em;
+  
+}
 /* Hamburger */
 .hamburger1 {
   height: 45px;
@@ -88,7 +96,7 @@ h2 {
 .menu1 ul {
   float: left;
   width: 25%;
-  margin-top: 120px;
+  margin-top: 1em;
 
 }
 
