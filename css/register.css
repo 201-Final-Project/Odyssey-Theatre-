@@ -37,30 +37,10 @@ h3 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 	color: #008C89;
-<<<<<<< HEAD
-  font-size: 70px;
-}
-
-h4 {
-  font-family: 'Montserrat', sans-serif;
-  color: aquamarine;
-  font-size: 30px;
-}
-h5 {
-  font-family: 'Montserrat', sans-serif;
-  color: rgb(115, 72, 131);
-  font-size: 16px;
-}
-/* p {
-  color: rgb(115, 72, 131);
-  font-size: 12px; 
-} */
-=======
  font-size: 70px;
 }
 
 
->>>>>>> 0d9324eb240e05466b195f22c90971c701d696cc
 div, form {
   text-align: center;
 }
