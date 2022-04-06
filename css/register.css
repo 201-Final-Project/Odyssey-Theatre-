@@ -3,22 +3,31 @@ body {
 
 }
 
-
+hr {
+  width: 100%;
+}
 
 #OdysseyRegistrationForm {
   float: center;
 	background-color: rgb(242, 240, 243);
-  max-width:50vw;
+  max-width:46vw;
   font-size: larger;
-  padding: 25px;
+  padding-top: 5vw;
+  padding-right: 4vw;
+  padding-left: 4vw;
+  
   margin-top: 10px;
-  margin-right: auto; 
-  margin-bottom: 0px; 
+  margin-right: 23vw; 
+  margin-left: 23vw;
+  margin-bottom: 15vw; 
   margin-left: auto;
+}
+#emergencyForm {
+  padding-top: 4vw;
+  padding-bottom: 8vw;
 }
 h2 {
 	font-family: 'Montserrat', sans-serif;
-	color: #008C89;
 	font-size: 70px;
 	opacity: 80%;
 	margin-bottom: 20px;
@@ -28,23 +37,10 @@ h3 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 	color: #008C89;
-  font-size: 70px;
+ font-size: 70px;
 }
 
-h4 {
-  font-family: 'Montserrat', sans-serif;
-  color: aquamarine;
-  font-size: 30px;
-}
-h5 {
-  font-family: 'Montserrat', sans-serif;
-  color: rgb(115, 72, 131);
-  font-size: 16px;
-}
-/* p {
-  color: rgb(115, 72, 131);
-  font-size: 12px; 
-} */
+
 div, form {
   text-align: center;
 }
@@ -64,10 +60,7 @@ b {
 font-size: medium;
 }
 
-img {
-  padding-top: 10px;
-  padding-left: 30px;
-}
+
 
 button {
   float: left;
@@ -77,22 +70,24 @@ button {
   margin-bottom: 40px;
   font-size: larger;
   font-weight: 900;
+  background-color: goldenrod;
+}
+img {
+  padding-top: 10px;
 }
 .imagesLeft {
   max-width: 20vw;
-  margin-left:30px;
-  margin-right: 30px;
   display: flex;
   flex-direction: column; 
   float: left;
+  padding-left: 2vw;
 }
 .imagesRight {
   max-width:20vw;
-  margin-right: 30px;
-  margin-left: 30px;
   display: flex;
   flex-direction: column; 
   float: right;
+  padding-right: 2vw;
  }
  #form2{
    margin-top: 60px;
