@@ -8,7 +8,7 @@ $required_fields = array();'student','grade','email','address','parent','phone0'
 
 // set error messages
 $error_messages = array(
-	'student' => 'Please enter a Name to proceed.',
+  'student' => 'Please enter a Name to proceed.',
   'grade'  => 'Please enter students grade to continue.'
   'email'  => 'Please enter your email to continue.'
   'address'  => 'Please enter your adress to continue.'
