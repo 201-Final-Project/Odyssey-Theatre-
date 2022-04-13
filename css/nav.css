@@ -129,3 +129,20 @@ grid-template-columns: 1fr 1fr 1fr; */
   margin-bottom: 10px;
 }
 
+///////////////////////////////////////////
+
+/* For mobile phones: */
+@media (max-width: 600px) {
+  h2 {
+    display: none;
+}
+}
+
+@media (max-width: 600px) {
+  .link1 {
+    display: flex;
+    display: inline-block; 
+    flex-direction: column;
+    justify-content: right;
+}
+}
