@@ -39,9 +39,9 @@ h3 {
 div, form {
   text-align: center;
 }
-main {
+/* main {
   margin: 0 auto;
-}
+} */
 b {
   font-weight: 900;
   font-size: larger;
