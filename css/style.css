@@ -1,6 +1,10 @@
 * {
 	box-sizing: border-box;
 }
+body {
+	width: 90%;
+  margin: 0 auto;
+}
 
 h1 {
 	font-family: 'Montserrat', sans-serif;
