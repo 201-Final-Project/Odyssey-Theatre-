@@ -128,10 +128,10 @@ grid-template-columns: 1fr 1fr 1fr; */
   padding: 8px;
   margin-bottom: 10px;
 }
+ 
+/* /////////////////////////////////////////// */
 
-///////////////////////////////////////////
-
-/* For mobile phones: */
+/* For mobile phones:
 @media (max-width: 600px) {
   h2 {
     display: none;
@@ -145,4 +145,4 @@ grid-template-columns: 1fr 1fr 1fr; */
     flex-direction: column;
     justify-content: right;
 }
-}
+} */
