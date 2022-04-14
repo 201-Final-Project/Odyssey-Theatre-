@@ -257,60 +257,54 @@ function remove_email_injection($field = FALSE) {
 
 
 
-
-
-<!--  I will review this and refactor we will need two form so probably only two open form tags. 
-
-         <form action="">
-         <form id="registrationForm" post="">
+ 
+       
          <?php if($form_complete === FALSE): ?>
-         <form action="contact.php" method="post" id="registrationForm_form">
-         <form>  -->
+            <form action="contact.php" method="post" id="registrationForm_form">
+                  <br>
+                  <label for="student">Student</label>
+                  <input type="text" id="student" name="student" size="30" value="<?php echo isset($_POST['student'])? $_POST['student'] : ''; ?>" />
+                  <?php if(in_array('student', $validation)): ?><span class="error"><?php echo $error_messages['student']; ?></span><?php endif; ?> 
+                  
+                  <label for="grade">Grade</label>
+                  <input type="text" id="grade" name="grade" size="4" value="<?php echo isset($_POST['grade'])? $_POST['grade'] : ''; ?>" />
+                  <?php if(in_array('grade', $validation)): ?><span class="error"><?php echo $error_messages['grade']; ?></span><?php endif; ?> 
+                  
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email" size="22" value="<?php echo isset($_POST['email'])? $_POST['email'] : ''; ?> " />
+                  <?php if(in_array('email', $validation)): ?><span class="error"><?php echo $error_messages['email']; ?></span><?php endif; ?>
+                     
+                     <br>
+                  <label for="address">Address</label>
+                  <input type="text" id="address" name="address" size="79" value="<?php echo isset($_POST['address'])? $_POST['address'] : ''; ?> " />
+                  <?php if(in_array('address', $validation)): ?><span class="error"><?php echo $error_messages['address']; ?></span><?php endif; ?>
+                     <br>
+                  <label for="parent">Parent(s)</label>
+                  <input type="text" id="parent" name="parent" size="44" value="<?php echo isset($_POST['parent'])? $_POST['parent'] : ''; ?>" />
+                  <?php if(in_array('parent', $validation)): ?><span class="error"><?php echo $error_messages['parent']; ?></span><?php endif; ?> 
+                  
+                  <label for="work">Work#</label>
+                  <input type="text" id="work" name="work" size="22" value="<?php echo isset($_POST['work'])? $_POST['work'] : ''; ?>" />
+                  <?php if(in_array('work', $validation)): ?><span class="error"><?php echo $error_messages['work']; ?></span><?php endif; ?>
+                     <br>
 
-            <br>
-            <label for="student">Student</label>
-            <input type="text" id="student" name="student" size="30" value="<?php echo isset($_POST['student'])? $_POST['student'] : ''; ?>" />
-            <?php if(in_array('student', $validation)): ?><span class="error"><?php echo $error_messages['student']; ?></span><?php endif; ?> 
+                  <label for="phone0">Phone/cell</label>
+                  <input type="text" id="phone0" name="phone0" size="77" value="<?php echo isset($_POST['phone0'])? $_POST['phone0'] : ''; ?>" />
+                  <?php if(in_array('phone0', $validation)): ?><span class="error"><?php echo $error_messages['phone0']; ?></span><?php endif; ?>
+                     <br>
+
+                  <label for="emergC">Emergency Contact#</label>
+                  <input type="text" id="emergC" name="emergC" size="67" value="<?php echo isset($_POST['emergC'])? $_POST['emergC'] : ''; ?>" />
+                  <?php if(in_array('emergC', $validation)): ?><span class="error"><?php echo $error_messages['emergC']; ?></span><?php endif; ?> 
+
+                  <button>Submit</button>
             
-            <label for="grade">Grade</label>
-            <input type="text" id="grade" name="grade" size="4" value="<?php echo isset($_POST['grade'])? $_POST['grade'] : ''; ?>" />
-            <?php if(in_array('grade', $validation)): ?><span class="error"><?php echo $error_messages['grade']; ?></span><?php endif; ?> 
-            
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email" size="22" value="<?php echo isset($_POST['email'])? $_POST['email'] : ''; ?> " />
-            <?php if(in_array('email', $validation)): ?><span class="error"><?php echo $error_messages['email']; ?></span><?php endif; ?>
-               
-               <br>
-            <label for="address">Address</label>
-            <input type="text" id="address" name="address" size="79" value="<?php echo isset($_POST['address'])? $_POST['address'] : ''; ?> " />
-            <?php if(in_array('address', $validation)): ?><span class="error"><?php echo $error_messages['address']; ?></span><?php endif; ?>
-               <br>
-            <label for="parent">Parent(s)</label>
-            <input type="text" id="parent" name="parent" size="44" value="<?php echo isset($_POST['parent'])? $_POST['parent'] : ''; ?>" />
-            <?php if(in_array('parent', $validation)): ?><span class="error"><?php echo $error_messages['parent']; ?></span><?php endif; ?> 
-            
-            <label for="work">Work#</label>
-            <input type="text" id="work" name="work" size="22" value="<?php echo isset($_POST['work'])? $_POST['work'] : ''; ?>" />
-            <?php if(in_array('work', $validation)): ?><span class="error"><?php echo $error_messages['work']; ?></span><?php endif; ?>
-               <br>
-
-            <label for="phone0">Phone/cell</label>
-            <input type="text" id="phone0" name="phone0" size="77" value="<?php echo isset($_POST['phone0'])? $_POST['phone0'] : ''; ?>" />
-            <?php if(in_array('phone0', $validation)): ?><span class="error"><?php echo $error_messages['phone0']; ?></span><?php endif; ?>
-                <br>
-
-            <label for="emergC">Emergency Contact#</label>
-            <input type="text" id="emergC" name="emergC" size="67" value="<?php echo isset($_POST['emergC'])? $_POST['emergC'] : ''; ?>" />
-            <?php if(in_array('emergC', $validation)): ?><span class="error"><?php echo $error_messages['emergC']; ?></span><?php endif; ?> 
-
-            <button>Submit</button>
-         <!-- </form> -->
          <?php else: ?>
-         <p>Thank you, Your registration has been received!</p>
+               <p>Thank you, Your registration has been received!</p>
          <?php endif; ?>
-         <br><br><br><br>
-         <!-- </form>
-         </form> -->
+               <br><br><br><br>
+      </form>
+        
 
 
          <br><br><br><br>
@@ -324,10 +318,10 @@ function remove_email_injection($field = FALSE) {
          <hr>
 
 
-         <!-- <form id="emergencyForm" action="submit">
-            <?php if($form_complete === FALSE): ?>
+       
+         <?php if($form_complete === FALSE): ?>
          <form action="contact.php" method="post" id="emergencyForm_form">
-         <form> -->
+         
 
 
             <div>An Iowa Not-for-Profit Corporation</div>
@@ -406,7 +400,7 @@ function remove_email_injection($field = FALSE) {
          <p>Thank you, Your EMERGENCY MEDICAL TREATMENT AUTHORIZATION form has been received!</p>
          <?php endif; ?>
          <br>
-         <!-- </form> -->
+         </form>
       </article>
    </main>
 </body>
