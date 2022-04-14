@@ -1,0 +1,44 @@
+
+
+
+@media only screen and (max-width: 1024px) {
+  body {
+    background-color: lightblue;
+  }
+
+.imagesLeft {
+  display: none;
+}
+.imagesRight {
+  display: none;
+
+}
+
+
+#OdysseyRegistrationForm {
+  /* float: center; */
+	background-color: rgb(242, 240, 243);
+  max-width: 100%;
+  font-size: larger;
+  margin-right: 0px; 
+  /* padding-top: 5vw;
+  padding-right: 4vw;
+  padding-left: 4vw;
+  
+  margin-top: 10px;
+ 
+  margin-left: 23vw;
+  margin-bottom: 15vw;  */
+  /* margin-left: auto; */
+}
+
+
+
+
+
+
+
+
+
+
+} /*close the media query */

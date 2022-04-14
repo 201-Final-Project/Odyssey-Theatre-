@@ -10,7 +10,7 @@
 .flexPast{
   display: flex;
   flex-direction: row;
-  width: 450px;
+  width: 60vw;
 }
 .p-menu2 {
   position: fixed;
