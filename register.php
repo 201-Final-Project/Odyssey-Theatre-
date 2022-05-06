@@ -78,7 +78,9 @@ function remove_email_injection($field = FALSE) {
 }
 
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <html lang="en">
    <head>
@@ -93,7 +95,7 @@ function remove_email_injection($field = FALSE) {
       <link rel="stylesheet" href="css/nav.css">
       <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Cinzel&family=Kanit:wght@700&family=Montserrat:wght@589&family=Orbitron:wght@500;900&family=Oswald:wght@600&family=Source+Sans+Pro:wght@200&family=Yellowtail&display=swap" rel="stylesheet">
       <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
-      <script>
+	   <script>
          function initPayPalButton() {
          paypal.Buttons({
             style: {
@@ -125,8 +127,20 @@ function remove_email_injection($field = FALSE) {
          }
          initPayPalButton();
       </script>
-      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/mootools/1.3.0/mootools-yui-compressed.js"></script>
+      
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/mootools/1.3.0/mootools-yui-compressed.js"></script>
 
+	   	   <script type="text/javascript" src="js/validation.js"></script>
+
+	   
       <script type="text/javascript">
         var nameError = '<?php echo $error_messages['student']; ?>';
         var emailError = '<?php echo $error_messages['email']; ?>';
@@ -260,7 +274,7 @@ function remove_email_injection($field = FALSE) {
  
        
          <?php if($form_complete === FALSE): ?>
-            <form action="contact.php" method="post" id="registrationForm_form">
+            <form action="register.php" method="post" id="registrationForm_form">
                   <br>
                   <label for="student">Student</label>
                   <input type="text" id="student" name="student" size="30" value="<?php echo isset($_POST['student'])? $_POST['student'] : ''; ?>" />
@@ -297,14 +311,14 @@ function remove_email_injection($field = FALSE) {
                   <input type="text" id="emergC" name="emergC" size="67" value="<?php echo isset($_POST['emergC'])? $_POST['emergC'] : ''; ?>" />
                   <?php if(in_array('emergC', $validation)): ?><span class="error"><?php echo $error_messages['emergC']; ?></span><?php endif; ?> 
 
-                  <button>Submit</button>
+                  <button type="submit">Submit</button>
+        
+               <br><br><br><br>
+      </form>
             
          <?php else: ?>
                <p>Thank you, Your registration has been received!</p>
          <?php endif; ?>
-               <br><br><br><br>
-      </form>
-        
 
 
          <br><br><br><br>
@@ -318,9 +332,35 @@ function remove_email_injection($field = FALSE) {
          <hr>
 
 
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
        
          <?php if($form_complete === FALSE): ?>
-         <form action="contact.php" method="post" id="emergencyForm_form">
+
+		  
+		  
+		  
+		  
+		  
+		  
+  <form action="register.php" method="post" id="emergencyForm_form">
          
 
 
@@ -329,12 +369,23 @@ function remove_email_injection($field = FALSE) {
             <br><br><br>
 
             <label for="iName">I,</label>
+	  
             <input type="text" id="iName" name="iName" size="22" value="<?php echo isset($_POST['iName'])? $_POST['iName'] : ''; ?>" />
+	  
+	  
             <?php if(in_array('iName', $validation)): ?><span class="error"><?php echo $error_messages['iName']; ?></span><?php endif; ?> 
             
+	  
+	  
+	  
             <label for="parGuard">(parent/guardian) of</label>
+	  
+	  
             <input type="text" id="parGuard" name="parGuard" size="22" value="<?php echo isset($_POST['parGuard'])? $_POST['parGuard'] : ''; ?>" />
+	  
+	  
             <?php if(in_array('parGuard', $validation)): ?><span class="error"><?php echo $error_messages['parGuard']; ?></span><?php endif; ?> 
+	  
                 who is/will be a student enrolled in Odyssey Theatre for the Young of Art's workshop do hereby expressly authorize any of the following steps, when deemed necessary and appropriate by Odyssey personnel, to be taken by Odyssey staff in the event of a medical emergency involving my child/ward, which may arise on the premises of the school during an Odyssey sponsored activity.
             <br><br />
             -To notify and request aid, if appropriate, of trained emergency medical personnel for immediate treatment of my child/ward.
@@ -394,13 +445,29 @@ function remove_email_injection($field = FALSE) {
                <?php if(in_array('comments', $validation)): ?><span class="error"><?php echo $error_messages['comments']; ?></span><?php endif; ?>  
                   <br>
             </section>
-            <button>Submit</button>
-         <!-- </form> -->
+	  
+            <button type="submit">Submit</button>
+	  
+          </form> 
          <?php else: ?>
          <p>Thank you, Your EMERGENCY MEDICAL TREATMENT AUTHORIZATION form has been received!</p>
          <?php endif; ?>
-         <br>
-         </form>
+         
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
       </article>
    </main>
 </body>
