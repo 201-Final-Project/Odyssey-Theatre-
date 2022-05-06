@@ -39,7 +39,13 @@ h3 {
 	color: #008C89;
  font-size: 70px;
 }
-
+h4 {
+  display: inline-block;
+  
+  font-family: 'Montserrat', sans-serif;
+	color: #008C89;
+  font-size: 35px;
+}
 
 div, form {
   text-align: center;
@@ -54,6 +60,11 @@ b {
 #middleText, #topText, #topTitle {
   font-size: xx-large;
   font-weight: 1000px;
+}
+
+#OdysseyRegistrationForm .thisPara{
+  text-align: center;
+  
 }
 
 #numEmail {
@@ -95,4 +106,19 @@ img {
  }
  #form2Input{
    text-align: left;
+ }
+
+
+ .indent {
+  text-indent: 50px;
+ }
+ .justify {
+  margin-bottom:30px;
+  text-align: justify;
+ }
+
+ #contactInfo {
+   float: right;
+   font-size: 26px;
+   margin-bottom: 20px;
  }
